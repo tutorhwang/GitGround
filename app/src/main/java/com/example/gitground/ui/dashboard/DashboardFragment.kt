@@ -32,8 +32,16 @@ class DashboardFragment : Fragment() {
         dashboardViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
+
+        binding.btnShowText.setOnClickListener {
+            dashboardViewModel.getData().observe(viewLifecycleOwner, {
+                textView.text = it
+            })
+        }
+
         return root
     }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
