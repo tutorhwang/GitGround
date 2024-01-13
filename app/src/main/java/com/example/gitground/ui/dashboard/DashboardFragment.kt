@@ -32,8 +32,23 @@ class DashboardFragment : Fragment() {
         dashboardViewModel.text.observe(viewLifecycleOwner) {
             textView.text = it
         }
+        
         return root
     }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        val dashboardViewModel =
+            ViewModelProvider(this).get(DashboardViewModel::class.java)
+        val textView: TextView = binding.textDashboard
+
+        binding.btnShowText.setOnClickListener {
+            dashboardViewModel.getData().observe(viewLifecycleOwner) {
+                textView.text = it
+            }
+        }
+    }
+
 
     override fun onDestroyView() {
         super.onDestroyView()
