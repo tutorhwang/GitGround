@@ -1,0 +1,44 @@
+[33mcommit 043ba27d753b0b30d30e9de4313f68961a29048a[m[33m ([m[1;36mHEAD -> [m[1;32mfeature[m[33m)[m
+Author: LEE HO <dlho1222@naver.com>
+Date:   Sat Jan 13 21:23:36 2024 +0900
+
+    #2 refactor: 코드 리팩토링
+
+[33mcommit 4f7cc93cb99266bc55529766041a6a7214604175[m[33m ([m[1;31morigin/feature[m[33m)[m
+Author: LEE HO <dlho1222@naver.com>
+Date:   Sat Jan 13 20:31:14 2024 +0900
+
+    feat:대시보드 텍스트 변경기능 추가 #1
+
+[33mcommit bfe55f1c72ee5440efdd770739f836d520631ddf[m
+Author: tutorhwang <heeya.hwang@gmail.com>
+Date:   Fri Jan 12 12:37:43 2024 +0900
+
+    [implement] Add rotation animation button and implement its functionality
+
+[33mcommit 076cd38aa88ffd197bdaf8bd45036b5ecd416560[m
+Author: tutor hwang <141888092+tutorhwang@users.noreply.github.com>
+Date:   Wed Jan 10 00:13:44 2024 +0900
+
+    [msg] 스탠다드반 하고싶은거 다해
+
+[33mcommit e750e18bb969dbf26476166c321f4afdf3d3beed[m
+Merge: f666a78 0313490
+Author: HWANG SEONGHEE <sunghee333@hotmail.com>
+Date:   Wed Jan 10 00:11:48 2024 +0900
+
+    [setup] Setup GitPlayGround for standard class
+    - 하고 싶은거 다해요
+
+[33mcommit f666a78c59cde5b3f071237b6be112a4a0302600[m
+Author: HWANG SEONGHEE <sunghee333@hotmail.com>
+Date:   Wed Jan 10 00:01:58 2024 +0900
+
+    [setup] Setup GitPlayGround for standard class
+    - 하고 싶은거 다해요
+
+[33mcommit 0313490ba8e3f90b3f763d80f2c7fdc1b7fa2360[m
+Author: tutor hwang <141888092+tutorhwang@users.noreply.github.com>
+Date:   Tue Jan 9 23:20:37 2024 +0900
+
+    Initial commit
